@@ -6,6 +6,7 @@ services:
       RAM_SIZE: "half"
       DISK_SIZE: "max"
       CPU_CORES: "max"
+      BOOT: "debian"
     devices:
       - /dev/kvm
       - /dev/net/tun
